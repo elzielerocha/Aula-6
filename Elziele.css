@@ -1,0 +1,110 @@
+body {
+  background-color: palevioletred;
+}
+
+div {
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.header {
+  color:white;
+  padding: 20px;
+  text-align: center;
+
+  
+  background-image: url("docesclaros.jpg");
+
+  
+  height: 150px;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  background-color: white;
+  color:black;
+  min-height: 150px;
+}
+
+
+.column-count:2; {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.interesses {
+  background-color: palevioletred;
+  color:green;
+}
+
+
+a:visited{
+  background-color: black;
+  color:white;
+}
+
+a:hover{
+background-color: white;
+color: green;
+}
+
+*/ teclado mexer
+*/
+
+a:focus {
+  background-color: black;
+  color:green;
+}
+
+a:active{
+  border: 5px solid green ;
+  color:black;
+  padding: 1px;
+}
+
+*/transição*/
+
+h1 {
+
+transition-property: color, width, background, border-radius;
+transition-duration: 10s;
+transition-delay: 5s;
+transition-timing-function: linear;
+
+}
+
+h1:hover{
+  color:green;
+  background: palevioletred;
+  border-radius: 300px;
+  width: 650px;
+}
